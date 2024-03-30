@@ -12,6 +12,10 @@ protocol Sizes: CaseIterable {
 
 extension Sizes { 
 	var id: String { "\(self)" }
+	var f: String { 
+		id.replacingOccurrences(of: "s", with: "")
+	}
+	
 	var value: String { "\(base*factor)rem" }
 }
 
@@ -64,19 +68,35 @@ enum RegularSizes: Int, Sizes {
 
 func sizes(prefix: String, prop: String) throws {
 	let mapped = sizes.map { size in
-		"""
-		*[\(prefix)=\(size.id)]{\(prop):\(size.value)}
-		*[\(prefix)-left=\(size.id)]{\(prop)-left:\(size.value)}
-		*[\(prefix)-right=\(size.id)]{\(prop)-right:\(size.value)}
-		*[\(prefix)-top=\(size.id)]{\(prop)-top:\(size.value)}
-		*[\(prefix)-bottom=\(size.id)]{\(prop)-bottom:\(size.value)}
-		*[\(prefix)-horizontal=\(size.id)]{\(prop)-left: \(size.value); \(prop)-right: \(size.value)}
-		*[\(prefix)-vertical=\(size.id)]{\(prop)-left: \(size.value); \(prop)-right: \(size.value)}
-		"""
+		renderAsClasses(prefix: prefix, prop: prop, size: size)
 	}.joined(separator: "\n")
 	
 	let filename = url.appendingPathComponent("\(prop).css")
 	try mapped.write(to: filename, atomically: true, encoding: String.Encoding.utf8)
+}
+
+func renderPaddingMargin(prefix: String, prop: String, size: any Sizes) -> String {
+	"""
+	*[\(prefix)=\(size.id)]{\(prop):\(size.value)}
+	*[\(prefix)-left=\(size.id)]{\(prop)-left:\(size.value)}
+	*[\(prefix)-right=\(size.id)]{\(prop)-right:\(size.value)}
+	*[\(prefix)-top=\(size.id)]{\(prop)-top:\(size.value)}
+	*[\(prefix)-bottom=\(size.id)]{\(prop)-bottom:\(size.value)}
+	*[\(prefix)-horizontal=\(size.id)]{\(prop)-left: \(size.value); \(prop)-right: \(size.value)}
+	*[\(prefix)-vertical=\(size.id)]{\(prop)-bottom: \(size.value); \(prop)-top: \(size.value)}
+	"""
+}
+
+func renderAsClasses(prefix: String, prop: String, size: any Sizes) -> String {
+	"""
+	.\(prefix)\(size.f) {\(prop):\(size.value)}
+	.\(prefix)l\(size.f) {\(prop)-left:\(size.value)}
+	.\(prefix)r\(size.f) {\(prop)-right:\(size.value)}
+	.\(prefix)t\(size.f) {\(prop)-top:\(size.value)}
+	.\(prefix)b\(size.f) {\(prop)-bottom:\(size.value)}
+	.\(prefix)h\(size.f) {\(prop)-left: \(size.value); \(prop)-right: \(size.value)}
+	.\(prefix)v\(size.f) {\(prop)-bottom: \(size.value); \(prop)-top: \(size.value)}
+	"""
 }
 
 func positioning() throws {
@@ -96,8 +116,8 @@ func positioning() throws {
 
 func make() {
 	do {
-		try sizes(prefix: "margin", prop: "margin")
-		try sizes(prefix: "padding", prop: "padding")
+		try sizes(prefix: "m", prop: "margin")
+		try sizes(prefix: "p", prop: "padding")
 		try positioning()
 		
 	} catch { 
@@ -105,5 +125,5 @@ func make() {
 	}
 }
 
-make()
-
+//make()
+print(url)

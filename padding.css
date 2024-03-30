@@ -1,0 +1,231 @@
+.ph {padding:0.125rem}
+.plh {padding-left:0.125rem}
+.prh {padding-right:0.125rem}
+.pth {padding-top:0.125rem}
+.pbh {padding-bottom:0.125rem}
+.phh {padding-left: 0.125rem; padding-right: 0.125rem}
+.pvh {padding-bottom: 0.125rem; padding-top: 0.125rem}
+.p1h {padding:0.375rem}
+.pl1h {padding-left:0.375rem}
+.pr1h {padding-right:0.375rem}
+.pt1h {padding-top:0.375rem}
+.pb1h {padding-bottom:0.375rem}
+.ph1h {padding-left: 0.375rem; padding-right: 0.375rem}
+.pv1h {padding-bottom: 0.375rem; padding-top: 0.375rem}
+.p2h {padding:0.625rem}
+.pl2h {padding-left:0.625rem}
+.pr2h {padding-right:0.625rem}
+.pt2h {padding-top:0.625rem}
+.pb2h {padding-bottom:0.625rem}
+.ph2h {padding-left: 0.625rem; padding-right: 0.625rem}
+.pv2h {padding-bottom: 0.625rem; padding-top: 0.625rem}
+.p3h {padding:0.875rem}
+.pl3h {padding-left:0.875rem}
+.pr3h {padding-right:0.875rem}
+.pt3h {padding-top:0.875rem}
+.pb3h {padding-bottom:0.875rem}
+.ph3h {padding-left: 0.875rem; padding-right: 0.875rem}
+.pv3h {padding-bottom: 0.875rem; padding-top: 0.875rem}
+.p1 {padding:0.25rem}
+.pl1 {padding-left:0.25rem}
+.pr1 {padding-right:0.25rem}
+.pt1 {padding-top:0.25rem}
+.pb1 {padding-bottom:0.25rem}
+.ph1 {padding-left: 0.25rem; padding-right: 0.25rem}
+.pv1 {padding-bottom: 0.25rem; padding-top: 0.25rem}
+.p2 {padding:0.5rem}
+.pl2 {padding-left:0.5rem}
+.pr2 {padding-right:0.5rem}
+.pt2 {padding-top:0.5rem}
+.pb2 {padding-bottom:0.5rem}
+.ph2 {padding-left: 0.5rem; padding-right: 0.5rem}
+.pv2 {padding-bottom: 0.5rem; padding-top: 0.5rem}
+.p3 {padding:0.75rem}
+.pl3 {padding-left:0.75rem}
+.pr3 {padding-right:0.75rem}
+.pt3 {padding-top:0.75rem}
+.pb3 {padding-bottom:0.75rem}
+.ph3 {padding-left: 0.75rem; padding-right: 0.75rem}
+.pv3 {padding-bottom: 0.75rem; padding-top: 0.75rem}
+.p4 {padding:1.0rem}
+.pl4 {padding-left:1.0rem}
+.pr4 {padding-right:1.0rem}
+.pt4 {padding-top:1.0rem}
+.pb4 {padding-bottom:1.0rem}
+.ph4 {padding-left: 1.0rem; padding-right: 1.0rem}
+.pv4 {padding-bottom: 1.0rem; padding-top: 1.0rem}
+.p6 {padding:1.25rem}
+.pl6 {padding-left:1.25rem}
+.pr6 {padding-right:1.25rem}
+.pt6 {padding-top:1.25rem}
+.pb6 {padding-bottom:1.25rem}
+.ph6 {padding-left: 1.25rem; padding-right: 1.25rem}
+.pv6 {padding-bottom: 1.25rem; padding-top: 1.25rem}
+.p7 {padding:1.5rem}
+.pl7 {padding-left:1.5rem}
+.pr7 {padding-right:1.5rem}
+.pt7 {padding-top:1.5rem}
+.pb7 {padding-bottom:1.5rem}
+.ph7 {padding-left: 1.5rem; padding-right: 1.5rem}
+.pv7 {padding-bottom: 1.5rem; padding-top: 1.5rem}
+.p8 {padding:1.75rem}
+.pl8 {padding-left:1.75rem}
+.pr8 {padding-right:1.75rem}
+.pt8 {padding-top:1.75rem}
+.pb8 {padding-bottom:1.75rem}
+.ph8 {padding-left: 1.75rem; padding-right: 1.75rem}
+.pv8 {padding-bottom: 1.75rem; padding-top: 1.75rem}
+.p9 {padding:2.0rem}
+.pl9 {padding-left:2.0rem}
+.pr9 {padding-right:2.0rem}
+.pt9 {padding-top:2.0rem}
+.pb9 {padding-bottom:2.0rem}
+.ph9 {padding-left: 2.0rem; padding-right: 2.0rem}
+.pv9 {padding-bottom: 2.0rem; padding-top: 2.0rem}
+.p10 {padding:2.25rem}
+.pl10 {padding-left:2.25rem}
+.pr10 {padding-right:2.25rem}
+.pt10 {padding-top:2.25rem}
+.pb10 {padding-bottom:2.25rem}
+.ph10 {padding-left: 2.25rem; padding-right: 2.25rem}
+.pv10 {padding-bottom: 2.25rem; padding-top: 2.25rem}
+.p11 {padding:2.5rem}
+.pl11 {padding-left:2.5rem}
+.pr11 {padding-right:2.5rem}
+.pt11 {padding-top:2.5rem}
+.pb11 {padding-bottom:2.5rem}
+.ph11 {padding-left: 2.5rem; padding-right: 2.5rem}
+.pv11 {padding-bottom: 2.5rem; padding-top: 2.5rem}
+.p12 {padding:2.75rem}
+.pl12 {padding-left:2.75rem}
+.pr12 {padding-right:2.75rem}
+.pt12 {padding-top:2.75rem}
+.pb12 {padding-bottom:2.75rem}
+.ph12 {padding-left: 2.75rem; padding-right: 2.75rem}
+.pv12 {padding-bottom: 2.75rem; padding-top: 2.75rem}
+.p13 {padding:3.0rem}
+.pl13 {padding-left:3.0rem}
+.pr13 {padding-right:3.0rem}
+.pt13 {padding-top:3.0rem}
+.pb13 {padding-bottom:3.0rem}
+.ph13 {padding-left: 3.0rem; padding-right: 3.0rem}
+.pv13 {padding-bottom: 3.0rem; padding-top: 3.0rem}
+.p14 {padding:3.25rem}
+.pl14 {padding-left:3.25rem}
+.pr14 {padding-right:3.25rem}
+.pt14 {padding-top:3.25rem}
+.pb14 {padding-bottom:3.25rem}
+.ph14 {padding-left: 3.25rem; padding-right: 3.25rem}
+.pv14 {padding-bottom: 3.25rem; padding-top: 3.25rem}
+.p16 {padding:3.5rem}
+.pl16 {padding-left:3.5rem}
+.pr16 {padding-right:3.5rem}
+.pt16 {padding-top:3.5rem}
+.pb16 {padding-bottom:3.5rem}
+.ph16 {padding-left: 3.5rem; padding-right: 3.5rem}
+.pv16 {padding-bottom: 3.5rem; padding-top: 3.5rem}
+.p20 {padding:3.75rem}
+.pl20 {padding-left:3.75rem}
+.pr20 {padding-right:3.75rem}
+.pt20 {padding-top:3.75rem}
+.pb20 {padding-bottom:3.75rem}
+.ph20 {padding-left: 3.75rem; padding-right: 3.75rem}
+.pv20 {padding-bottom: 3.75rem; padding-top: 3.75rem}
+.p24 {padding:4.0rem}
+.pl24 {padding-left:4.0rem}
+.pr24 {padding-right:4.0rem}
+.pt24 {padding-top:4.0rem}
+.pb24 {padding-bottom:4.0rem}
+.ph24 {padding-left: 4.0rem; padding-right: 4.0rem}
+.pv24 {padding-bottom: 4.0rem; padding-top: 4.0rem}
+.p28 {padding:4.25rem}
+.pl28 {padding-left:4.25rem}
+.pr28 {padding-right:4.25rem}
+.pt28 {padding-top:4.25rem}
+.pb28 {padding-bottom:4.25rem}
+.ph28 {padding-left: 4.25rem; padding-right: 4.25rem}
+.pv28 {padding-bottom: 4.25rem; padding-top: 4.25rem}
+.p32 {padding:4.5rem}
+.pl32 {padding-left:4.5rem}
+.pr32 {padding-right:4.5rem}
+.pt32 {padding-top:4.5rem}
+.pb32 {padding-bottom:4.5rem}
+.ph32 {padding-left: 4.5rem; padding-right: 4.5rem}
+.pv32 {padding-bottom: 4.5rem; padding-top: 4.5rem}
+.p36 {padding:4.75rem}
+.pl36 {padding-left:4.75rem}
+.pr36 {padding-right:4.75rem}
+.pt36 {padding-top:4.75rem}
+.pb36 {padding-bottom:4.75rem}
+.ph36 {padding-left: 4.75rem; padding-right: 4.75rem}
+.pv36 {padding-bottom: 4.75rem; padding-top: 4.75rem}
+.p40 {padding:5.0rem}
+.pl40 {padding-left:5.0rem}
+.pr40 {padding-right:5.0rem}
+.pt40 {padding-top:5.0rem}
+.pb40 {padding-bottom:5.0rem}
+.ph40 {padding-left: 5.0rem; padding-right: 5.0rem}
+.pv40 {padding-bottom: 5.0rem; padding-top: 5.0rem}
+.p44 {padding:5.25rem}
+.pl44 {padding-left:5.25rem}
+.pr44 {padding-right:5.25rem}
+.pt44 {padding-top:5.25rem}
+.pb44 {padding-bottom:5.25rem}
+.ph44 {padding-left: 5.25rem; padding-right: 5.25rem}
+.pv44 {padding-bottom: 5.25rem; padding-top: 5.25rem}
+.p48 {padding:5.5rem}
+.pl48 {padding-left:5.5rem}
+.pr48 {padding-right:5.5rem}
+.pt48 {padding-top:5.5rem}
+.pb48 {padding-bottom:5.5rem}
+.ph48 {padding-left: 5.5rem; padding-right: 5.5rem}
+.pv48 {padding-bottom: 5.5rem; padding-top: 5.5rem}
+.p52 {padding:5.75rem}
+.pl52 {padding-left:5.75rem}
+.pr52 {padding-right:5.75rem}
+.pt52 {padding-top:5.75rem}
+.pb52 {padding-bottom:5.75rem}
+.ph52 {padding-left: 5.75rem; padding-right: 5.75rem}
+.pv52 {padding-bottom: 5.75rem; padding-top: 5.75rem}
+.p56 {padding:6.0rem}
+.pl56 {padding-left:6.0rem}
+.pr56 {padding-right:6.0rem}
+.pt56 {padding-top:6.0rem}
+.pb56 {padding-bottom:6.0rem}
+.ph56 {padding-left: 6.0rem; padding-right: 6.0rem}
+.pv56 {padding-bottom: 6.0rem; padding-top: 6.0rem}
+.p60 {padding:6.25rem}
+.pl60 {padding-left:6.25rem}
+.pr60 {padding-right:6.25rem}
+.pt60 {padding-top:6.25rem}
+.pb60 {padding-bottom:6.25rem}
+.ph60 {padding-left: 6.25rem; padding-right: 6.25rem}
+.pv60 {padding-bottom: 6.25rem; padding-top: 6.25rem}
+.p64 {padding:6.5rem}
+.pl64 {padding-left:6.5rem}
+.pr64 {padding-right:6.5rem}
+.pt64 {padding-top:6.5rem}
+.pb64 {padding-bottom:6.5rem}
+.ph64 {padding-left: 6.5rem; padding-right: 6.5rem}
+.pv64 {padding-bottom: 6.5rem; padding-top: 6.5rem}
+.p72 {padding:6.75rem}
+.pl72 {padding-left:6.75rem}
+.pr72 {padding-right:6.75rem}
+.pt72 {padding-top:6.75rem}
+.pb72 {padding-bottom:6.75rem}
+.ph72 {padding-left: 6.75rem; padding-right: 6.75rem}
+.pv72 {padding-bottom: 6.75rem; padding-top: 6.75rem}
+.p80 {padding:7.0rem}
+.pl80 {padding-left:7.0rem}
+.pr80 {padding-right:7.0rem}
+.pt80 {padding-top:7.0rem}
+.pb80 {padding-bottom:7.0rem}
+.ph80 {padding-left: 7.0rem; padding-right: 7.0rem}
+.pv80 {padding-bottom: 7.0rem; padding-top: 7.0rem}
+.p96 {padding:7.25rem}
+.pl96 {padding-left:7.25rem}
+.pr96 {padding-right:7.25rem}
+.pt96 {padding-top:7.25rem}
+.pb96 {padding-bottom:7.25rem}
+.ph96 {padding-left: 7.25rem; padding-right: 7.25rem}
+.pv96 {padding-bottom: 7.25rem; padding-top: 7.25rem}
